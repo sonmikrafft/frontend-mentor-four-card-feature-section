@@ -1,0 +1,62 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 0.9375rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: hsl(234, 12%, 34%);
+  line-height: 1.75;
+}
+body h1 {
+  font-size: 1.5em;
+  color: black;
+  font-weight: 600;
+}
+body h2 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: black;
+}
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+}
+body .attribution a {
+  color: hsl(0, 78%, 62%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.875rem 2rem;
+  background-color: hsl(0, 0%, 98%);
+  height: 100vh;
+}
+
+.cards {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+@media (min-width: 40em) {
+  .cards {
+    max-width: 37.5rem;
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

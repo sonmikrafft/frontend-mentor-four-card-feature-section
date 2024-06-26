@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.875rem 2rem;
+  background-color: $very-light-gray;
+  height: 100vh; // use full screen
+}
+
+.cards {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  @include breakpoint-up(medium) {
+    max-width: 37.5rem;
+    flex-direction: row;
+  }
+
+}
